@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import TopBaner from "./components/TopBaner";
+import Hero from "./components/Hero";
+
 export default function App() {
   return (
-    <div className="wraper">
-      <h1>Plant Shop</h1>
-    </div>
+    <>
+      <TopBaner />
+      <Header />
+      <Hero />
+    </>
   );
 }
